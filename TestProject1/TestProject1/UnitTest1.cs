@@ -5,6 +5,14 @@ public class UnitTest1
     [Fact]
     public void Test1()
     {
-        Assert.True(true);
+        Assert.True(2 + 2 == 4);
     }
+
+    [Fact]
+    public void AssertFalse()
+    {
+        Assert.False(false);
+    }
+    
+    
 }
